@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{% block title %}{% endblock %}</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Add your stylesheets and scripts here -->
+    {% block stylesheets %}{% endblock %}
+    {% block scripts %}{% endblock %}
+</head>
+<body>
+    <nav>
+        <!-- Add your navigation links here -->
+        {% block navigation %}{% endblock %}
+    </nav>
+    <main>
+        {% block content %}{% endblock %}
+    </main>
+    <footer>
+        <!-- Add your footer content here -->
+        {% block footer %}{% endblock %}
+    </footer>
+</body>
+</html>
